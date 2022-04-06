@@ -5,3 +5,11 @@ html {
   line-height: 1.5;
   margin: 0;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
